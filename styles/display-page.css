@@ -1,0 +1,41 @@
+main {
+  padding: 30px;
+  font-size: 0;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.upper {
+  height: 200px;
+  width: 50%;
+  display: inline-block;
+  border: 1px solid black; 
+}
+
+.left {
+  background-color: #517c13;
+}
+
+.right {
+  background-color: #1f22f7;
+}
+
+.bottom {
+  height: 300px;
+  width: 33.33%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.lower_left {
+  background-color: #808080;
+}
+
+.lower_middle {
+  background-color: #000;
+}
+
+.lower_right {
+  background-color: #e3a93c;
+}
