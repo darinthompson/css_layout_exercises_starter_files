@@ -6,3 +6,24 @@ body * {
 a {
   text-decoration: none;
 }
+
+@media only screen and (min-width: 1201px) {
+    /* tablets and desktop */
+    body{
+      background-color: red;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1200px){
+  body{
+    background-color: blue;
+  }
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    body{
+      background-color: orange;
+    }
+}
